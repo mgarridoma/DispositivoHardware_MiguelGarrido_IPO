@@ -1,11 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EyeQue Personal Vision Tracker</title>
+    <link rel="shortcut icon" href="./imagenes/logo.png">
+    <link rel="stylesheet" href="./css/css.css">
 </head>
+
+
+
+
 <body>
-    <h1>HOLA</h1>
+
+    <header>
+        <section class="contenedorEncabezado">    
+            <h1>Dispositivo Hardware: <em>EyeQue Personal Vision Tracker.</em></h1>
+        </section>
+        
+    </header>
+
+    <main>
+        <nav class="contenedorNavegacion">          
+                <a class="elementosNav" href="#enlaceIntroduccion">Introducción</a>
+                <a class="elementosNav" href="#enlaceFuncionamiento">Funcionamiento</a>
+                <a class="elementosNav" href="#enlaceConclusiones">Conclusiones</a>
+                <a class="elementosNav" href="#enlaceAcercaDe">+Info.</a>          
+        </nav>
+
+
+
+        <section id="enlaceIntroduccion" class="contenedorSeccionIntroduccion">
+            <h1 class="encabezados">Introducción</h1>
+            
+            <p class="textoParrafos">
+                La tecnología en términos generales ha evolucionado a una velocidad descontrolada. 
+                Lo que hace unos pocos años era impensable para muchos usuarios, ahora en un par de “clicks” puede lograrse con una facilidad pasmosa. 
+                <br><br>
+                En el caso de los teclados hemos visto una rápida evolución a lo largo de los últimos años. 
+                Antes teníamos unos teclados de membrana, de enorme tamaño (que, por cierto, eran y siguen siendo muy duraderos.) 
+                A día de hoy, yo mismo conservo uno de mi padre en casa (que lo iba a tirar, pero no le dejé porque me encanta).
+                A continuación, llegaron los mecánicos, con unas características un tanto mas peculiares, como la sensación que dan al pulsar sobre las teclas, 
+                o en general, el mecanismo que tienen. Pero no he venido a hablar de estos teclados tradicionales. 
+                Estate bien atento porque te voy a enseñar los teclados del futuro. Estos se llaman teclados holográfico.
+                <br><br>
+            </p>
+            <img class="imagenes" src="./imagenes/EyeQueVision.jpg" alt="imagenPresentacion">
+            <br><br>
+        </section>
+
+
+
+        <section id="enlaceFuncionamiento" class="contenedorSeccionFuncionamiento">
+            <h1 class="encabezados">Funcionamiento</h1>
+
+            <p class="textoParrafos">
+                Puedes preguntarte que como narices hacen estos cacharros para conseguir que a traves de una simple luz 
+                entiendan que estás queriendo pulsar una tecla. Pues bien, aquí te doy una explicación "tecnica""
+                de como funcionan.
+                <br><br>
+                Los teclados holográficos proyectan un segundo haz (infrarrojo invisible) sobre el teclado virtual.
+                El dedo del usuario hace una pulsación de tecla en el teclado virtual. De esta forma se rompe el haz infrarrojo y refleja la luz de vuelta al proyector. 
+                El haz reflejado pasa a través de un filtro infrarrojo a la cámara. 
+                A continuación, la cámara fotografía el ángulo de la luz infrarroja entrante. Ahora 
+                el chip del sensor determina dónde se rompió el haz infrarrojo. Por último, el software determina la acción o el carácter a ser generado.
+                <br><br>
+                No se si te habrá quedado del todo claro, pero <a class="link" href="https://www.youtube.com/watch?v=r0uOv7k0z38">aquí</a> 
+                te dejo un video en el que igual lo explica un poquito mejor que yo.
+            </p>
+        </section>
+
+
+        
+        <section id="enlaceConclusiones" class="contenedorSeccionConclusiones">
+            <h1 class="encabezados">Conclusiones</h1>
+
+            <p class="textoParrafos">
+                Y estarás pensando... ¿Este cacharro que simula un teclado a traves de un halo de luz que detecta tu pulsación
+                a través de la interferencia entre la luz y tu dedo... ¿Tiene futuro?
+                <br>
+                Pues la respuesta es SI. (Bueno, al menos en mi opinion.)
+                <br><br>
+                Los teclados holográficos han venido para quedarse. Es un dispositivo muy portatil que puede conectarse via usb o via bluetooth a tu dispositivo movil
+                (tablet, pc, smartphone, tostadora inteligente, e-lavavajillas... Lo que tu quieras!)
+                <br><br>
+                ¿Y tú que harías? ¿Te comprarias un teclado tradicional o te pasas a los teclados holográficos? 
+                <br><br>
+                ¡Sea cual sea, yo digo <em>que han llegado para quedarse!</em>
+            </p>
+        </section>
+
+
+
+        <section id="enlaceAcercaDe" class="contenedorSeccionAcercaDe">
+            <h1 class="encabezados">+Info.</h1>
+
+            <p class="textoParrafos">
+                <a class="boton" href="https://www.gizcomputer.com/laser-projection-virtual-keyboard-opiniones/">Pulsa aquí para aprender más</a>  
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contenedorFooter">
+            <p>Trabajo realizado por <em>Miguel Garrido Marino</em>. Todos los derechos reservados.</p>
+        </section>
+    </footer>
 </body>
 </html>

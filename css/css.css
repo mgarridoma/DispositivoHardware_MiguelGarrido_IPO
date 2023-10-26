@@ -1,0 +1,162 @@
+/*CSS body*/
+body{
+    background-color: black;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/*CSS contenedores*/
+.contenedorEncabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3%;
+}
+
+.contenedorNavegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    border-radius: 50px;
+    background-color: goldenrod;
+    margin-bottom:3%;
+}
+
+.contenedorSeccionIntroduccion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-bottom: 1%;
+    height: fit-content;
+}
+
+.contenedorSeccionFuncionamiento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-bottom: 1%;
+    height: fit-content;
+}
+
+.contenedorSeccionConclusiones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-bottom: 1%;
+    height: fit-content;
+}
+
+
+.contenedorSeccionAcercaDe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: lightgrey;
+    border-radius: 50px;
+    margin-bottom: 3%;
+    height: fit-content;
+}
+
+.contenedorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+
+/*CSS elementos sueltos*/
+.elementosNav{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: none;
+}
+.elementosNav:hover{
+    color: gray;
+    font-style: italic;
+}
+
+.encabezados{
+    margin-left: 8.5%;
+    margin-top: 3%;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textoParrafos{
+font-size: 1.25em;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 8.5%;
+margin-right: 8.5%; 
+margin-bottom: 3%;
+text-align: justify;
+line-height: 200%;
+}
+
+.imagenes{
+margin-left: 40%;
+margin-bottom: 1%;
+}
+
+
+
+/*CSS Botones*/
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 3% 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.boton:hover{
+background-color: lightcoral;
+color: black;
+font-style: italic;
+}
+
+.link{
+    font-weight: bold;
+    text-decoration: none;
+color: black;
+}
+.link:hover{
+    font-style: italic;
+
+}
