@@ -1,6 +1,6 @@
 /*CSS body*/
 body{
-    background-color: black;
+    background-color: rgb(199, 246, 255);
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 30px;
@@ -15,8 +15,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: gray;
-    border-radius: 50px;
+    background-color: rgb(255, 169, 169);
+    border-radius: 25px;
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 3%;
@@ -27,7 +27,7 @@ body{
     justify-content: space-between;
     align-items: center;   
     border-radius: 50px;
-    background-color: goldenrod;
+    background-color: rgb(207, 209, 255);
     margin-bottom:3%;
 }
 
@@ -36,8 +36,8 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-color: lightgrey;
-    border-radius: 50px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 25px;
     margin-bottom: 1%;
     height: fit-content;
 }
@@ -47,8 +47,8 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-color: lightgrey;
-    border-radius: 50px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 25px;
     margin-bottom: 1%;
     height: fit-content;
 }
@@ -59,7 +59,7 @@ body{
     align-items: flex-start;
     justify-content: flex-start;
     background-color: lightgrey;
-    border-radius: 50px;
+    border-radius: 25px;
     margin-bottom: 1%;
     height: fit-content;
 }
@@ -69,10 +69,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    
     background-color: lightgrey;
-    border-radius: 50px;
+    border-radius: 25px;
     margin-bottom: 3%;
+    align-content: space-around ;
     height: fit-content;
 }
 
@@ -81,7 +82,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: grey;
+    background-color: rgb(255, 169, 169);
     border-radius: 50px;
     font-size: 1.25em;
     font-weight: bold;
@@ -125,8 +126,11 @@ line-height: 200%;
 }
 
 .imagenes{
-margin-left: 40%;
+
+align-self: center;
 margin-bottom: 1%;
+border-radius: 25px;
+
 }
 
 
@@ -136,15 +140,17 @@ margin-bottom: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    
+    width:f;
     padding: 3% 5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 25px;
     text-decoration: none;
     text-align: center;
     color: black;
 }
+
 .boton:hover{
 background-color: lightcoral;
 color: black;
