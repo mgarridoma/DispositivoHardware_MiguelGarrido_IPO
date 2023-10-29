@@ -135,9 +135,9 @@ border-radius: 25px;
 .boton{
     align-self: center;
     margin-bottom: 3%;
+    margin-top: 3%;
     border-radius: 25px; 
 }
-
 
 .link{
     font-weight: bold;
