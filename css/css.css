@@ -67,13 +67,11 @@ body{
 
 .contenedorSeccionAcercaDe{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1%;
+    flex-direction:column;
+    align-items: flex-start;
     background-color: lightgrey;
     border-radius: 25px;
     margin-bottom: 3%;
-    align-content: space-around ;
     height: fit-content;
 }
 
@@ -126,43 +124,27 @@ line-height: 200%;
 }
 
 .imagenes{
-
 align-self: center;
 margin-bottom: 1%;
 border-radius: 25px;
-
 }
 
 
 
 /*CSS Botones*/
 .boton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    width:f;
-    padding: 3% 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: red;
-    border-radius: 25px;
-    text-decoration: none;
-    text-align: center;
-    color: black;
+    align-self: center;
+    margin-bottom: 3%;
+    border-radius: 25px; 
 }
 
-.boton:hover{
-background-color: lightcoral;
-color: black;
-font-style: italic;
-}
 
 .link{
     font-weight: bold;
     text-decoration: none;
-color: black;
+    color: black;
 }
+
 .link:hover{
     font-style: italic;
-
 }
